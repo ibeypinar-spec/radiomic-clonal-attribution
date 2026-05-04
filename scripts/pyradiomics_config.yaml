@@ -1,0 +1,27 @@
+# PyRadiomics Feature Extraction Config
+# Modalite bagimsiz ozellikler — wavelet YOK
+setting:
+  binWidth: 25
+  resampledPixelSpacing: [1, 1, 1]    # 1mm isotropic
+  interpolator: sitkBSpline
+  padDistance: 10
+  weightingNorm:                        # normalize etme
+  normalize: false
+  normalizeScale: 1
+  removeOutliers:
+  label: 1                              # maske labeli (fallback: otomatik)
+  minimumROIDimensions: 2
+  minimumROISize:
+  geometryTolerance: 1e-06
+  correctMask: true                     # maske hataliysa onar
+
+imageType:
+  Original: {}                          # Sadece original — wavelet yok
+
+featureClass:
+  shape:                                # 14 ozellik — modaliteden bagimsiz
+  firstorder:                           # 18 ozellik
+  glcm:                                 # 24 ozellik — doku homojenlik
+  glrlm:                                # 16 ozellik — doku yonelimi
+  glszm:                                # 16 ozellik — heterojenlik
+  # gldzm, ngtdm, gldm: DISI BIRAKILIYOR
