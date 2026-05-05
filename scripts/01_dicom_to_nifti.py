@@ -23,6 +23,21 @@ DATASETS = {
     "brain_mets": {"dicom": BASE_DIR / "data/brain_mets", "nifti": BASE_DIR / "nifti/brain_mets"},
 }
 
+def find_tcia_root(dicom_root: Path) -> Path:
+    """TCIA, indirilen veriyi ayni isimde alt klasore koyar: data/tcga_luad/tcga_luad/
+    Bu fonksiyon gercek hasta klasorlerinin bulundugu dizini bulur."""
+    # TCGA-XX-XXXX formatinda klasor var mi direkt bak
+    patient_dirs = [d for d in dicom_root.iterdir() if d.is_dir() and d.name.startswith("TCGA-")]
+    if patient_dirs:
+        return dicom_root
+    # Bir alt klasorde ara (TCIA yapisi)
+    for sub in dicom_root.iterdir():
+        if sub.is_dir() and sub.name != "metadata":
+            patient_dirs = [d for d in sub.iterdir() if d.is_dir() and d.name.startswith("TCGA-")]
+            if patient_dirs:
+                return sub
+    return dicom_root
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -34,28 +49,33 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 
-def find_dicom_series(dicom_root: Path) -> list[Path]:
-    """Her alt klasoru bir hasta serisi olarak kabul et."""
+def find_dicom_series(dicom_root: Path) -> list[tuple[str, Path]]:
+    """TCIA yapisi: hasta_klasoru/StudyUID/SeriesUID/*.dcm
+    Her hasta icin en uygun (en fazla DCM iceren) seri klasorunu dondur.
+    Returns: [(patient_id, series_dir), ...]"""
+    patient_root = find_tcia_root(dicom_root)
     series = []
-    for item in sorted(dicom_root.iterdir()):
-        if item.is_dir():
-            dcm_files = list(item.rglob("*.dcm"))
-            if not dcm_files:
-                # Alt-alt klasorlere bak (TCIA yapisi: hasta/seri/dosyalar)
-                sub_dirs = [d for d in item.iterdir() if d.is_dir()]
-                for sub in sub_dirs:
-                    if list(sub.rglob("*.dcm")):
-                        series.append(sub)
-            else:
-                series.append(item)
+    for patient_dir in sorted(patient_root.iterdir()):
+        if not patient_dir.is_dir() or not patient_dir.name.startswith("TCGA-"):
+            continue
+        patient_id = patient_dir.name
+        # En fazla DCM iceren seriyi sec
+        best_series = None
+        best_count = 0
+        for series_dir in patient_dir.rglob("*"):
+            if series_dir.is_dir():
+                dcm_count = len(list(series_dir.glob("*.dcm")))
+                if dcm_count > best_count:
+                    best_count = dcm_count
+                    best_series = series_dir
+        if best_series and best_count > 0:
+            series.append((patient_id, best_series))
     return series
 
 
-def convert_series(series_dir: Path, output_dir: Path) -> dict:
+def convert_series(patient_id: str, series_dir: Path, output_dir: Path) -> dict:
     """Tek bir DICOM serisini NIfTI'ye donustur."""
-    patient_id = series_dir.parent.name  # TCGA-XX-XXXX formatı
     output_dir.mkdir(parents=True, exist_ok=True)
-
     result = {"patient_id": patient_id, "series": series_dir.name, "status": None, "output": None}
 
     cmd = [
@@ -103,12 +123,17 @@ def main(dataset: str):
         return
 
     series_list = find_dicom_series(dicom_root)
-    log.info(f"Dataset: {dataset.upper()} | {len(series_list)} seri bulundu")
+    log.info(f"Dataset: {dataset.upper()} | {len(series_list)} hasta bulundu")
 
     results = []
-    for i, series in enumerate(series_list, 1):
-        log.info(f"[{i}/{len(series_list)}] {series.name}")
-        r = convert_series(series, nifti_out)
+    for i, (patient_id, series) in enumerate(series_list, 1):
+        # Zaten donusturulmusse atla
+        if list(nifti_out.glob(f"{patient_id}*.nii.gz")):
+            log.info(f"[{i}/{len(series_list)}] SKIP {patient_id}")
+            results.append({"patient_id": patient_id, "status": "skipped"})
+            continue
+        log.info(f"[{i}/{len(series_list)}] {patient_id}")
+        r = convert_series(patient_id, series, nifti_out)
         results.append(r)
 
     # Ozet

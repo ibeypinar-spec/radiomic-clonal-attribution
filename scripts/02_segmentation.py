@@ -16,8 +16,8 @@ from datetime import datetime
 BASE_DIR = Path("C:/RadyomikAtribuisyon")
 
 DATASET_CFG = {
-    "luad": {"nifti": BASE_DIR / "nifti/luad",   "seg": BASE_DIR / "segmentations/luad",   "task": "total", "target": "lung_tumor",    "fallback": "lung_upper_lobe_left"},
-    "lusc": {"nifti": BASE_DIR / "nifti/lusc",   "seg": BASE_DIR / "segmentations/lusc",   "task": "total", "target": "lung_tumor",    "fallback": "lung_upper_lobe_left"},
+    "luad": {"nifti": BASE_DIR / "nifti/luad",   "seg": BASE_DIR / "segmentations/luad",   "task": "total", "target": "lung_tumor",    "fallback": "lung_lower_lobe_left"},
+    "lusc": {"nifti": BASE_DIR / "nifti/lusc",   "seg": BASE_DIR / "segmentations/lusc",   "task": "total", "target": "lung_tumor",    "fallback": "lung_lower_lobe_left"},
     "brca": {"nifti": BASE_DIR / "nifti/brca",   "seg": BASE_DIR / "segmentations/brca",   "task": "total", "target": "breast",        "fallback": "breast"},
     "prad": {"nifti": BASE_DIR / "nifti/prad",   "seg": BASE_DIR / "segmentations/prad",   "task": "total", "target": "prostate",      "fallback": "prostate"},
     "coad": {"nifti": BASE_DIR / "nifti/coad",   "seg": BASE_DIR / "segmentations/coad",   "task": "total", "target": "colon",         "fallback": "small_bowel"},
