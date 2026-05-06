@@ -70,7 +70,7 @@ def train(X, y, feature_names):
 
     # LASSO ile on-secim
     lasso = LogisticRegression(penalty="l1", solver="saga", C=0.1, max_iter=2000,
-                               multi_class="multinomial", random_state=42)
+                               random_state=42)
     selector = SelectFromModel(lasso, threshold="mean")
 
     xgb = XGBClassifier(
@@ -163,6 +163,15 @@ def shap_analysis(pipe, X, feature_names):
 def main():
     print("=== FAZ 4a: Model Egitimi ===")
     df = load_and_merge()
+
+    n_classes = df["cancer_type"].nunique()
+    if n_classes < 2:
+        print(f"\nUYARI: Sadece {n_classes} sinif mevcut ({df['cancer_type'].unique()}).")
+        print("Model egitimi icin en az 2 farkli dataset gerekli.")
+        print("Once diger TCGA datasetlerini indirin (brca, prad, coad).")
+        print("Mevcut veri kaydedildi, diger datasetler hazir olunca devam edin.")
+        return
+
     X, y, feature_names = clean_features(df)
     print(f"\nOzellik matrisi: {X.shape[0]} hasta x {X.shape[1]} ozellik")
     pipe, scores = train(X, y, feature_names)
