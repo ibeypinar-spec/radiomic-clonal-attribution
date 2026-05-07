@@ -18,23 +18,39 @@ warnings.filterwarnings("ignore")
 BASE_DIR = Path("C:/RadyomikAtribuisyon")
 
 LABEL_MAP = {
-    "akciger": 0,
-    "meme":    1,
-    "prostat": 2,
-    "kolon":   3,
+    "akciger": 0,  # LUAD, LUSC
+    "meme":    1,  # BRCA
+    "kolon":   2,  # COAD
+    "prostat": 3,  # PRAD (eger varsa)
 }
 LABEL_NAMES = {v: k for k, v in LABEL_MAP.items()}
+
+# CSV dosya adi -> cancer_type eslesmesi
+FILENAME_TO_TYPE = {
+    "tcga_luad": "akciger",
+    "tcga_lusc": "akciger",
+    "tcga_brca": "meme",
+    "tcga_coad": "kolon",
+    "tcga_prad": "prostat",
+}
 
 
 def load_and_merge() -> pd.DataFrame:
     dfs = []
-    for csv in (BASE_DIR / "features").glob("tcga_*_features.csv"):
+    for csv in sorted((BASE_DIR / "features").glob("tcga_*_features.csv")):
         df = pd.read_csv(csv)
+        stem = csv.stem.replace("_features", "")  # e.g. tcga_luad
+
+        # cancer_type sutunu yoksa dosya adindan cikar
         if "cancer_type" not in df.columns:
-            print(f"WARN: {csv.name} icinde 'cancer_type' yok, atlandi")
-            continue
+            ctype = FILENAME_TO_TYPE.get(stem)
+            if ctype is None:
+                print(f"WARN: {csv.name} eslestirilemedi, atlandi")
+                continue
+            df["cancer_type"] = ctype
+
         dfs.append(df)
-        print(f"  {csv.name}: {len(df)} hasta, {df['cancer_type'].value_counts().to_dict()}")
+        print(f"  {csv.name}: {len(df)} hasta, type={df['cancer_type'].iloc[0]}")
 
     if not dfs:
         raise FileNotFoundError("Hicbir TCGA feature CSV bulunamadi. Once FAZ 3 calistirin.")
@@ -42,6 +58,13 @@ def load_and_merge() -> pd.DataFrame:
     combined = pd.concat(dfs, ignore_index=True)
     print(f"\nToplam: {len(combined)} hasta")
     print(combined["cancer_type"].value_counts())
+
+    # Renumber labels to be contiguous 0..N-1
+    present = sorted(combined["cancer_type"].unique())
+    global LABEL_MAP, LABEL_NAMES
+    LABEL_MAP = {t: i for i, t in enumerate(present)}
+    LABEL_NAMES = {v: k for k, v in LABEL_MAP.items()}
+    print(f"Label map: {LABEL_MAP}")
     return combined
 
 

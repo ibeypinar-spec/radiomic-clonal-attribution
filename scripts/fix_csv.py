@@ -1,7 +1,9 @@
 """CSV duplikat kontrolu ve temizleme"""
 import pandas as pd
+import sys
 
-path = "C:/RadyomikAtribuisyon/features/tcga_luad_features.csv"
+dataset = sys.argv[1] if len(sys.argv) > 1 else "luad"
+path = f"C:/RadyomikAtribuisyon/features/tcga_{dataset}_features.csv"
 df = pd.read_csv(path)
 print(f"Ham: {len(df)} satir, {len(df.columns)} sutun, {df['patient_id'].nunique()} benzersiz hasta")
 

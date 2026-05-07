@@ -17,9 +17,11 @@ warnings.filterwarnings("ignore")
 
 BASE_DIR = Path("C:/RadyomikAtribuisyon")
 
-LABEL_NAMES = {0: "akciger", 1: "meme", 2: "prostat", 3: "kolon"}
-LABEL_TR    = {0: "Akciğer", 1: "Meme", 2: "Prostat", 3: "Kolon"}
-COLORS      = ["#2196F3", "#E91E63", "#4CAF50", "#FF9800"]
+TR_NAMES = {
+    "akciger": "Akciğer", "meme": "Meme",
+    "kolon": "Kolon", "prostat": "Prostat",
+}
+ALL_COLORS = ["#2196F3", "#E91E63", "#4CAF50", "#FF9800", "#9C27B0"]
 
 
 def main():
@@ -39,6 +41,11 @@ def main():
     pipe = bundle["pipeline"]
     feature_names = bundle["feature_names"]
     label_map = bundle["label_map"]
+
+    # Dinamik label setup
+    LABEL_NAMES = {v: k for k, v in label_map.items()}
+    LABEL_TR = {v: TR_NAMES.get(k, k.capitalize()) for k, v in label_map.items()}
+    COLORS = ALL_COLORS[:len(label_map)]
 
     # Brain mets feature yukle
     bm_csv = BASE_DIR / "features/tcga_brain_mets_features.csv"

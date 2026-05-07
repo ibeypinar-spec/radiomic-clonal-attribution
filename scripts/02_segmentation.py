@@ -42,18 +42,21 @@ DATASET_CFG = {
         "seg":   BASE_DIR / "segmentations/brca",
         "organs": ["breast_left", "breast_right"],
         "roi_subset": True,
+        "task": "breasts",        # MRI breast-specific model
     },
     "prad": {
         "nifti": BASE_DIR / "nifti/prad",
         "seg":   BASE_DIR / "segmentations/prad",
         "organs": ["prostate"],
         "roi_subset": True,
+        "task": "total_mr",       # MRI prostate model
     },
     "coad": {
         "nifti": BASE_DIR / "nifti/coad",
         "seg":   BASE_DIR / "segmentations/coad",
-        "organs": ["colon"],
+        "organs": ["colon", "small_bowel"],   # colon + fallback
         "roi_subset": True,
+        "task": "total",
     },
     "brain_mets": {
         "nifti": BASE_DIR / "nifti/brain_mets",
@@ -89,7 +92,8 @@ def merge_masks(organ_files: list[Path], reference_file: Path) -> np.ndarray | N
     return combined
 
 
-def segment_file(patient_id: str, nifti_path: Path, seg_out: Path, organs: list[str], roi_subset: bool = True) -> dict:
+def segment_file(patient_id: str, nifti_path: Path, seg_out: Path, organs: list[str],
+                 roi_subset: bool = True, task: str = "total") -> dict:
     import SimpleITK as sitk
 
     mask_path = seg_out / f"{patient_id}_mask.nii.gz"
@@ -103,11 +107,14 @@ def segment_file(patient_id: str, nifti_path: Path, seg_out: Path, organs: list[
 
     with tempfile.TemporaryDirectory() as tmp:
         tmp_path = Path(tmp)
-        cmd = ["TotalSegmentator", "-i", str(nifti_path), "-o", tmp]
-        if roi_subset:
+        TOTALSEG = r"C:\Users\Lenovo\anaconda3\envs\radiomics\Scripts\TotalSegmentator.exe"
+        cmd = [TOTALSEG, "-i", str(nifti_path), "-o", tmp, "--task", task]
+        if roi_subset and task not in ("breasts",):  # breasts task roi_subset desteklemiyor
             cmd += ["--roi_subset"] + organs
+        # MRI gorevleri (breasts, total_mr) ilk celiristirmede model indirir, daha uzun timeout
+        timeout_sec = 1800 if task in ("breasts", "total_mr") else 600
         try:
-            proc = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
+            proc = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout_sec)
 
             # Hangi organ dosyaları bulundu?
             found = []
@@ -159,19 +166,20 @@ def main(dataset: str):
     nifti_dir  = cfg["nifti"]
     seg_out    = cfg["seg"]
     organs     = cfg["organs"]
+    task       = cfg.get("task", "total")
 
     if not nifti_dir.exists() or not list(nifti_dir.glob("*.nii.gz")):
         log.error(f"NIfTI dizini bos: {nifti_dir}. Once FAZ 1 calistirin.")
         return
 
     files = sorted(nifti_dir.glob("*.nii.gz"))
-    log.info(f"Dataset: {dataset.upper()} | {len(files)} dosya | Hedef organlar: {organs}")
+    log.info(f"Dataset: {dataset.upper()} | {len(files)} dosya | Task: {task} | Organlar: {organs}")
 
     results = []
     for i, f in enumerate(files, 1):
         patient_id = f.stem.replace(".nii", "")
         log.info(f"[{i}/{len(files)}] {f.name}")
-        r = segment_file(patient_id, f, seg_out, organs, cfg.get("roi_subset", True))
+        r = segment_file(patient_id, f, seg_out, organs, cfg.get("roi_subset", True), task)
         results.append(r)
         if i % 10 == 0:
             ok = sum(1 for x in results if x["status"] in ("ok", "skipped"))
