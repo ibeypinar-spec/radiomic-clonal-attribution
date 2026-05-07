@@ -40,7 +40,7 @@ DATASET_CFG = {
     "brca": {
         "nifti": BASE_DIR / "nifti/brca",
         "seg":   BASE_DIR / "segmentations/brca",
-        "organs": ["breast_left", "breast_right"],
+        "organs": ["breast"],     # breasts task tek 'breast.nii.gz' uretir
         "roi_subset": True,
         "task": "breasts",        # MRI breast-specific model
     },
