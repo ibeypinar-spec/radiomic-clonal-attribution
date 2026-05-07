@@ -1,0 +1,121 @@
+{
+  "dataset": "prad",
+  "total": 14,
+  "ok": 0,
+  "fail": 14,
+  "timestamp": "2026-05-06T21:01:03.424103",
+  "details": [
+    {
+      "patient_id": "TCGA-EJ-5495",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    },
+    {
+      "patient_id": "TCGA-EJ-5518",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    },
+    {
+      "patient_id": "TCGA-EJ-5542",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    },
+    {
+      "patient_id": "TCGA-J4-8198",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    },
+    {
+      "patient_id": "TCGA-J4-A67M",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    },
+    {
+      "patient_id": "TCGA-J4-A67O",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    },
+    {
+      "patient_id": "TCGA-J4-A67S",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    },
+    {
+      "patient_id": "TCGA-J4-A6G1",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    },
+    {
+      "patient_id": "TCGA-J4-A6G3",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    },
+    {
+      "patient_id": "TCGA-J4-AATZ",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    },
+    {
+      "patient_id": "TCGA-VP-A878",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    },
+    {
+      "patient_id": "TCGA-VP-A879",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    },
+    {
+      "patient_id": "TCGA-VP-A87C",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    },
+    {
+      "patient_id": "TCGA-VP-A87D",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "prostate"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "dataset": "prad",
+  "total": 14,
+  "ok": 14,
+  "fail": 0,
+  "timestamp": "2026-05-06T20:41:24.050040",
+  "details": [
+    {
+      "patient_id": "TCGA-EJ-5495",
+      "series": "1.3.6.1.4.1.14519.5.2.1.6450.4006.246294870112359371639825572857",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-EJ-5495.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EJ-5518",
+      "series": "1.3.6.1.4.1.14519.5.2.1.6450.4006.175015869927428512492693507018",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-EJ-5518.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EJ-5542",
+      "series": "1.3.6.1.4.1.14519.5.2.1.6450.4006.146894010312502129167201469634",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-EJ-5542.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-J4-8198",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3983.4006.233557736757280742924900802980",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-J4-8198.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-J4-A67M",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3983.4006.122085828316717245490095726149",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-J4-A67M.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-J4-A67O",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3983.4006.123592663440526734445424125161",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-J4-A67O.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-J4-A67S",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3983.4006.179667643717678721723004987724",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-J4-A67S.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-J4-A6G1",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3983.4006.991793386648127832754168952017",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-J4-A6G1.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-J4-A6G3",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3983.4006.209832461216245913201453144684",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-J4-A6G3.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-J4-AATZ",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3983.4006.215024479947543927797441643971",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-J4-AATZ.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-VP-A878",
+      "series": "1.3.6.1.4.1.14519.5.2.1.7777.4006.266822032522643745978907862000",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-VP-A878.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-VP-A879",
+      "series": "1.3.6.1.4.1.14519.5.2.1.7777.4006.226805575511232025658868341854",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-VP-A879.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-VP-A87C",
+      "series": "1.3.6.1.4.1.14519.5.2.1.7777.4006.201272079347572451734334189642",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-VP-A87C.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-VP-A87D",
+      "series": "1.3.6.1.4.1.14519.5.2.1.7777.4006.256121133634818906319766557842",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\prad\\TCGA-VP-A87D.nii.gz"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  [
+    "original_firstorder_10Percentile",
+    0.7819907069206238
+  ],
+  [
+    "original_firstorder_Median",
+    0.5190402865409851
+  ],
+  [
+    "original_glrlm_LongRunHighGrayLevelEmphasis",
+    0.4435657560825348
+  ],
+  [
+    "original_glrlm_RunLengthNonUniformity",
+    0.43792253732681274
+  ],
+  [
+    "original_firstorder_Skewness",
+    0.40748950839042664
+  ],
+  [
+    "original_firstorder_Minimum",
+    0.25630441308021545
+  ]
+]

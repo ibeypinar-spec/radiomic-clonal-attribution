@@ -2,7 +2,7 @@
 # Modalite bagimsiz ozellikler — wavelet YOK
 setting:
   binWidth: 25
-  resampledPixelSpacing: [1, 1, 1]    # 1mm isotropic
+  resampledPixelSpacing: [2, 2, 2]    # 2mm isotropic (1mm -> shape crash with large MRI masks)
   interpolator: sitkBSpline
   padDistance: 10
   weightingNorm:                        # normalize etme
@@ -19,9 +19,10 @@ imageType:
   Original: {}                          # Sadece original — wavelet yok
 
 featureClass:
-  shape:                                # 14 ozellik — modaliteden bagimsiz
+  # shape: KALDIRILDI — buyuk MRI maskeleriyle ITK marching cubes crash yapiyor
   firstorder:                           # 18 ozellik
   glcm:                                 # 24 ozellik — doku homojenlik
   glrlm:                                # 16 ozellik — doku yonelimi
   glszm:                                # 16 ozellik — heterojenlik
+  # Toplam: 74 ozellik — siniflandirma icin yeterli
   # gldzm, ngtdm, gldm: DISI BIRAKILIYOR

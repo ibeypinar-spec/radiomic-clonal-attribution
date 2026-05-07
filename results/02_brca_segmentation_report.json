@@ -1,0 +1,669 @@
+{
+  "dataset": "brca",
+  "total": 130,
+  "ok": 126,
+  "fail": 4,
+  "timestamp": "2026-05-07T10:44:16.140755",
+  "details": [
+    {
+      "patient_id": "TCGA-AO-A03M",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AO-A03M_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AO-A03V",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AO-A03V_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AO-A0J8",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AO-A0J8_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AO-A0J9",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AO-A0J9_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AO-A0JB",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AO-A0JB_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AO-A0JF",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AO-A0JF_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AO-A0JI",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "breast"
+      ]
+    },
+    {
+      "patient_id": "TCGA-AO-A0JM",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AO-A0JM_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AO-A129",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AO-A129_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AO-A12E",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AO-A12E_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AO-A12F",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AO-A12F_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AO-A12G",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AO-A12G_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AQ-A04H",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AQ-A04H_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AR-A1AN",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AR-A1AN_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AR-A1AQ",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AR-A1AQ_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AR-A1AX",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AR-A1AX_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AR-A24M",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AR-A24M_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AR-A24R",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AR-A24R_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AR-A24S",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AR-A24S_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AR-A24U",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AR-A24U_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AR-A24W",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AR-A24W_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AR-A24X",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AR-A24X_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AR-A254",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-AR-A254_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0AW",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0AW_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0AZ",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0AZ_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0B1",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0B1_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0B3",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0B3_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0B5",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0B5_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0B6",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0B6_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0BJ",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0BJ_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0BM",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0BM_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0BQ",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0BQ_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0BT",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0BT_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0C0",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0C0_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0DE",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0DE_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0DG",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0DG_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0DH",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0DH_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0DI",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0DI_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0DK",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0DK_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0DT",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0DT_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0DV",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0DV_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0DX",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0DX_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0DZ",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0DZ_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0E0",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0E0_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0E1",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0E1_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0E2",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0E2_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0E9",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0E9_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0EI",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0EI_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0GY",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0GY_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0GZ",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0GZ_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0H3",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0H3_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0H5",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0H5_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0H7",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0H7_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0H9",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0H9_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0HA",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0HA_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0HI",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0HI_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0HX",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0HX_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0HY",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0HY_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0RX",
+      "status": "no_mask",
+      "mask": null,
+      "found_organs": []
+    },
+    {
+      "patient_id": "TCGA-BH-A0W3",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0W3_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A0W5",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A0W5_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A18F",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A18F_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A18H",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A18H_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A18I",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A18I_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A201",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A201_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A202",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A202_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-BH-A28Q",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-BH-A28Q_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A107",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A107_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A108",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A108_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A108_Eq_1",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A108_Eq_1_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A109",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A109_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A109_Eq_1",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A109_Eq_1_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A10F",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A10F_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A14N",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A14N_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A14Q",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A14Q_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A14S",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A14S_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A14V",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A14V_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A14X",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A14X_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A14Y",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A14Y_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A14Y_Eq_1",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A14Y_Eq_1_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A150",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A150_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A159",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A159_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A15A",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A15A_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A15E",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A15E_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A15H",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A15H_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A15J",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A15J_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A15J_Eq_1",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A15J_Eq_1_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A15K",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A15K_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A15L",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A15L_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A15M",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A15M_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A1B6",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A1B6_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A1IG",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A1IG_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A1IJ",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A1IJ_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A1IJ_Eq_1",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A1IJ_Eq_1_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A1IK",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A1IK_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A1IN",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A1IN_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A1L7",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A1L7_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A1L9",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A1L9_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A1L9_Eq_1",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A1L9_Eq_1_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-E2-A1LG",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-E2-A1LG_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A1IY",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-EW-A1IY_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A1IZ",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-EW-A1IZ_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A1J2",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "breast"
+      ]
+    },
+    {
+      "patient_id": "TCGA-EW-A1J6",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-EW-A1J6_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A1OY",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-EW-A1OY_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A1OZ",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-EW-A1OZ_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A1P0",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-EW-A1P0_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A1P3",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-EW-A1P3_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A1P4",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-EW-A1P4_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A1PA",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-EW-A1PA_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A1PC",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-EW-A1PC_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A2FR",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-EW-A2FR_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A2FS",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-EW-A2FS_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A3E8",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-EW-A3E8_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-EW-A423",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "breast"
+      ]
+    },
+    {
+      "patient_id": "TCGA-OL-A5D6",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A5D6_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A5D7",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A5D7_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A5D8",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A5D8_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A5DA",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A5DA_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A5RV",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A5RV_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A5RW",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A5RW_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A5RX",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A5RX_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A5RZ",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A5RZ_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A66I",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A66I_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A66J",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A66J_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A66K",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A66K_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A66N",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A66N_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A66O",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A66O_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A6VO",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A6VO_mask.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-OL-A6VR",
+      "status": "skipped",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\brca\\TCGA-OL-A6VR_mask.nii.gz"
+    }
+  ]
+}

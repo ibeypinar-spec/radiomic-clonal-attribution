@@ -1,0 +1,159 @@
+{
+  "dataset": "coad",
+  "total": 25,
+  "ok": 25,
+  "fail": 0,
+  "timestamp": "2026-05-06T20:45:07.732890",
+  "details": [
+    {
+      "patient_id": "TCGA-AY-4070A",
+      "series": "1.3.6.1.4.1.14519.5.2.1.8421.4017.787305079077841007172123472811",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-AY-4070A.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AY-5543A",
+      "series": "1.3.6.1.4.1.14519.5.2.1.8421.4017.154848554168505160287931311591",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-AY-5543A.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AY-6197A",
+      "series": "1.3.6.1.4.1.14519.5.2.1.8421.4017.164308460109122194843631084860",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-AY-6197A.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AY-6386A",
+      "series": "1.3.6.1.4.1.14519.5.2.1.8421.4017.145241389345544922793496833764",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-AY-6386A.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-AY-A54L",
+      "series": "1.3.6.1.4.1.14519.5.2.1.8421.4017.144861775582457824459182775374",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-AY-A54L.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-CK-4951",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3671.4017.239388182821894752286862733404",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-CK-4951.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-CK-5915",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3671.4017.168061730708828512548256456422",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-CK-5915.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-CK-5916",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3671.4017.108720369914422330826831295590",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-CK-5916.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-CK-6747",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3671.4017.332997901841991091432928752371",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-CK-6747.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-CK-6748",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3671.4017.182764912113269702118311091258",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-CK-6748.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6298",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.832634573539944716986293960245",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6298.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6299",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.217434195449068898232699877770",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6299.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6303",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.178646489491105489054322571836",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6303.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6304",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.287145886736210351708468313619",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6304.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6309",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.399989802021118573799532008871",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6309.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6310",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.405499341163242741268783669306",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6310.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6311",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.754574454474299286452469445656",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6311.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6314",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.268354757274944994957926210171",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6314.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6315",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.186042157236078252778355039789",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6315.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6320",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.120961418542277598776171198253",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6320.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6321",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.178500910179184940900628919355",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6321.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6322",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.216474342407737323022878105498",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6322.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6323",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.418697744521327304608129033680",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6323.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6627",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.312899106200086238284458383967",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6627.nii.gz"
+    },
+    {
+      "patient_id": "TCGA-G4-6628",
+      "series": "1.3.6.1.4.1.14519.5.2.1.3023.4017.206055045197153124196882910321",
+      "status": "ok",
+      "output": "C:\\RadyomikAtribuisyon\\nifti\\coad\\TCGA-G4-6628.nii.gz"
+    }
+  ]
+}

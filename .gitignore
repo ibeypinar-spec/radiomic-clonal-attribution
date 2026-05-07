@@ -1,12 +1,10 @@
 # Large medical imaging data - never commit
-data/tcga_luad/*.dcm
-data/tcga_lusc/*.dcm
-data/tcga_brca/*.dcm
-data/tcga_prad/*.dcm
-data/tcga_coad/*.dcm
-data/brain_mets/*.dcm
+data/
 nifti/**/*.nii
 nifti/**/*.nii.gz
+nifti/**/*.json
+nifti/**/*.bval
+nifti/**/*.bvec
 segmentations/**/*.nii
 segmentations/**/*.nii.gz
 features/*.csv

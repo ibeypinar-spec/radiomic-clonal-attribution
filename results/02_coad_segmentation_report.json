@@ -1,0 +1,279 @@
+{
+  "dataset": "coad",
+  "total": 34,
+  "ok": 31,
+  "fail": 3,
+  "timestamp": "2026-05-06T22:59:05.788504",
+  "details": [
+    {
+      "patient_id": "TCGA-AY-4070A",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-AY-4070A_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-AY-5543A",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-AY-5543A_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-AY-6197A",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-AY-6197A_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-AY-6386A",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-AY-6386A_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-AY-A54L",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-AY-A54L_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-CK-4951",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-CK-4951_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-CK-5915",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-CK-5915_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-CK-5916",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-CK-5916_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-CK-6747",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-CK-6747_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-CK-6748",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-CK-6748_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6298",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6298_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6298_Eq_1",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6298_Eq_1_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6299",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6299_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6299_Eq_1",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6299_Eq_1_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6303",
+      "status": "error: Exception thrown in SimpleITK Image_CopyInformation: D:\\a\\SimpleITK\\SimpleITK\\Code\\Common\\src\\sitkImage.cxx:345:\nsitk::ERROR: Source Image for information does not match this image's dimension.",
+      "mask": null,
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6304",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6304_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6309",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6309_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6309_Eq_1",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6309_Eq_1_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6310",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6310_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6310_Eq_1",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6310_Eq_1_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6311",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6311_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6314",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6314_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6314_Eq_1",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6314_Eq_1_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6315",
+      "status": "error: Exception thrown in SimpleITK Image_CopyInformation: D:\\a\\SimpleITK\\SimpleITK\\Code\\Common\\src\\sitkImage.cxx:345:\nsitk::ERROR: Source Image for information does not match this image's dimension.",
+      "mask": null,
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6320",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6320_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6320a",
+      "status": "no_mask",
+      "mask": null,
+      "found_organs": []
+    },
+    {
+      "patient_id": "TCGA-G4-6321",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6321_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6322",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6322_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6323",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6323_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6323_Eq_1",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6323_Eq_1_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6627",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6627_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6627_Eq_1",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6627_Eq_1_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6628",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6628_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    },
+    {
+      "patient_id": "TCGA-G4-6628_Eq_1",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\coad\\TCGA-G4-6628_Eq_1_mask.nii.gz",
+      "found_organs": [
+        "colon"
+      ]
+    }
+  ]
+}

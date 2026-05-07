@@ -154,13 +154,18 @@ def shap_analysis(pipe, X, feature_names):
     shap_values = explainer.shap_values(X_sel)
 
     # Cok sinifli: ortalama mutlak SHAP
+    # shap_values: list (eski SHAP) veya 3D array (yeni SHAP: n_samples x n_features x n_classes)
     if isinstance(shap_values, list):
         mean_shap = np.mean([np.abs(sv) for sv in shap_values], axis=0).mean(axis=0)
+    elif shap_values.ndim == 3:
+        mean_shap = np.abs(shap_values).mean(axis=(0, 2))  # samples x features x classes -> features
     else:
         mean_shap = np.abs(shap_values).mean(axis=0)
 
-    top20_idx = np.argsort(mean_shap)[-20:][::-1]
-    top20 = [(sel_names[i], float(mean_shap[i])) for i in top20_idx]
+    mean_shap = mean_shap.flatten()  # kesinlikle 1D
+    n_top = min(20, len(sel_names))
+    top20_idx = np.argsort(mean_shap)[-n_top:][::-1]
+    top20 = [(sel_names[int(i)], float(mean_shap[int(i)])) for i in top20_idx]
 
     print("\nEn ayirt edici 20 ozellik:")
     for name, val in top20:
@@ -170,8 +175,8 @@ def shap_analysis(pipe, X, feature_names):
     fig, ax = plt.subplots(figsize=(10, 8))
     top_names = [t[0] for t in top20]
     top_vals = [t[1] for t in top20]
-    ax.barh(range(20), top_vals[::-1])
-    ax.set_yticks(range(20))
+    ax.barh(range(n_top), top_vals[::-1])
+    ax.set_yticks(range(n_top))
     ax.set_yticklabels(top_names[::-1], fontsize=8)
     ax.set_xlabel("Ortalama |SHAP| degeri")
     ax.set_title("En Ayirt Edici 20 Radyomik Ozellik")

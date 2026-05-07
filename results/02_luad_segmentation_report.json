@@ -1,0 +1,849 @@
+{
+  "dataset": "luad",
+  "total": 73,
+  "ok": 61,
+  "fail": 12,
+  "timestamp": "2026-05-05T23:30:19.096830",
+  "details": [
+    {
+      "patient_id": "TCGA-17-Z011",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z011_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z013",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z013_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z015",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z015_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z016",
+      "status": "no_mask",
+      "mask": null,
+      "found_organs": []
+    },
+    {
+      "patient_id": "TCGA-17-Z017",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z017_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z018",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z018_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z019",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z019_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z020",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z020_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z021",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z021_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z023",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z023_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z024",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z024_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z027",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z027_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z028",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z028_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z029",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z029_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z030",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z030_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z031",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z031_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z032",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z032_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z033",
+      "status": "no_mask",
+      "mask": null,
+      "found_organs": []
+    },
+    {
+      "patient_id": "TCGA-17-Z034",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z034_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z035",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z035_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z036",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z036_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z038",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z038_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z039",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z039_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z042",
+      "status": "no_mask",
+      "mask": null,
+      "found_organs": []
+    },
+    {
+      "patient_id": "TCGA-17-Z043",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z043_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z045",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z045_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z048",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z048_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z050",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z050_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z051",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z051_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z051_Eq_1",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z051_Eq_1_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z052",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z052_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z053",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z053_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z054",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z054_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z056",
+      "status": "no_mask",
+      "mask": null,
+      "found_organs": []
+    },
+    {
+      "patient_id": "TCGA-17-Z058",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z058_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z059",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z059_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z060",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z060_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z060_Eq_1",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z060_Eq_1_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z061",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z061_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-17-Z062",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-17-Z062_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-38-4625",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-38-4625_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-38-4625_Eq_1",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-38-4625_Eq_1_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-38-4626",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-38-4626_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-38-4628",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-38-4628_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-38-4628_Eq_1",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-38-4628_Eq_1_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-38-4629",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-38-4629_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-38-6178",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-38-6178_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-38-A44F",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-38-A44F_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-5044",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-5044_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-5045",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-5049",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-5049_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-5051",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-5051_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-5055",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-5066",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-5072",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-5072_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-5936",
+      "status": "no_mask",
+      "mask": null,
+      "found_organs": []
+    },
+    {
+      "patient_id": "TCGA-50-5941",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-5941_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-5942",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-5942_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-5946",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-5946_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-6590",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-6590_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-6591",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-6592",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-6592_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-6593",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-6593_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-6594",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-6594_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-6595",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-6595_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-6673",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-6673_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-8459",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-8459_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-8459_Eq_1",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-8459_Eq_1_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-50-8460",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-50-8460_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-J2-8194",
+      "status": "no_mask",
+      "mask": null,
+      "found_organs": []
+    },
+    {
+      "patient_id": "TCGA-J2-A4AD",
+      "status": "ok",
+      "mask": "C:\\RadyomikAtribuisyon\\segmentations\\luad\\TCGA-J2-A4AD_mask.nii.gz",
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-J2-A4AE",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    },
+    {
+      "patient_id": "TCGA-J2-A4AG",
+      "status": "empty_mask",
+      "mask": null,
+      "found_organs": [
+        "lung_upper_lobe_left",
+        "lung_lower_lobe_left",
+        "lung_upper_lobe_right",
+        "lung_middle_lobe_right",
+        "lung_lower_lobe_right"
+      ]
+    }
+  ]
+}
